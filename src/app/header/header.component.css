@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  width: 100vw;
+  height: 64px;
+  background-color: greenyellow;
+  justify-content: center;
+  align-items: center;
+}
+
+.header a {
+  display: flex;
+  margin: auto;
+  border-radius: 4px;
+  width: 40%;
+  height: 32px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(5, 83, 65);
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.header a:hover {
+  color: white;
+}
+
+@media only screen and (min-width: 768px) and (min-device-width: 768px) {
+  .header {
+    width: 512px;
+  }
+
+  .header a {
+    font-size: 24px;
+  }
+}

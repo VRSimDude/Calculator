@@ -1,0 +1,35 @@
+.output {
+  display: block;
+  width: 100vw;
+  height: 256px;
+  background-color: rgb(43, 43, 43);
+}
+
+.output p {
+  display: flex;
+  height: 128px;
+  margin: 0;
+  color: grey;
+  justify-content: right;
+  align-items: center;
+  padding-right: 12px;
+  font-size: 32px;
+}
+
+.output .history {
+  font-size: 18px;
+}
+
+@media only screen and (min-width: 768px) and (min-device-width: 768px) {
+  .output {
+    width: 512px;
+  }
+
+  .output p {
+    font-size: 42px;
+  }
+
+  .output .history {
+    font-size: 24px;
+  }
+}

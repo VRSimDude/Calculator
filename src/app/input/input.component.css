@@ -1,0 +1,39 @@
+.input {
+  display: block;
+  width: 100vw;
+  background-color: greenyellow;
+}
+
+.row button {
+  display: inline-flex;
+  width: 25%;
+  height: 128px;
+  margin: 0;
+  border-radius: 8px;
+  border-style: ridge;
+  border-color: green;
+  background-color: rgb(5, 83, 65);
+  justify-content: center;
+  align-items: center;
+  color: grey;
+  font-size: 64px;
+}
+
+.two button {
+  width: 50%;
+}
+
+.row button:hover {
+  background-color: rgb(8, 132, 103);
+  color: white;
+}
+
+@media only screen and (min-width: 768px) and (min-device-width: 768px) {
+  .input {
+    width: 512px;
+  }
+
+  .row button {
+    font-size: 80px;
+  }
+}

@@ -1,0 +1,30 @@
+<div class="input">
+    <div class="row four">
+        <button (click)="onClickNumber(7)">7</button>
+        <button (click)="onClickNumber(8)">8</button>
+        <button (click)="onClickNumber(9)">9</button>
+        <button (click)="onClickOperator('/')">/</button>
+    </div>
+    <div class="row four">
+        <button (click)="onClickNumber(4)">4</button>
+        <button (click)="onClickNumber(5)">5</button>
+        <button (click)="onClickNumber(6)">6</button>
+        <button (click)="onClickOperator('*')">*</button>
+    </div>
+    <div class="row four">
+        <button (click)="onClickNumber(1)">1</button>
+        <button (click)="onClickNumber(2)">2</button>
+        <button (click)="onClickNumber(3)">3</button>
+        <button (click)="onClickOperator('-')">-</button>
+    </div>
+    <div class="row four">
+        <button (click)="onClickChangeSign()">+/-</button>
+        <button (click)="onClickNumber(0)">0</button>
+        <button (click)="onAddComma()">.</button>
+        <button (click)="onClickOperator('+')">+</button>
+    </div>
+    <div class="row two">
+        <button (click)="onClickReset()">reset</button>
+        <button (click)="onClickResult()">=</button>
+    </div>
+</div>
